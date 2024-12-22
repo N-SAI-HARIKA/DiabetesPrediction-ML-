@@ -1,0 +1,54 @@
+html {
+    background: url('https://wallpaperaccess.com/full/3702031.jpg') no-repeat center center fixed;
+    background-size:cover;
+    height: 100%;
+    overflow: hidden;
+  }
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 1em;
+}
+.container {
+    background: rgba(245, 245, 245, 0.52);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(42, 35, 35, 0.622), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-group{
+    margin-bottom: 10px;
+    
+}
+label{
+    display: block;
+    font-weight: 600;
+
+}
+input{
+    width: 100%;
+    margin-top: 5px;
+    padding: 6px;
+    border-radius: 0.4em;
+}
+h1{
+    color: rgb(6, 6, 7);
+}
+.result{
+    font-weight: 600;
+    font-size: large;
+}
+button{
+    border-radius:5px;
+    color: rgb(244, 241, 237);
+    background-color: rgb(60, 131, 55);
+    font-weight: 600;
+    padding: 5px;
+}
